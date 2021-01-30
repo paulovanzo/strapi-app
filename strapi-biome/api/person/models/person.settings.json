@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Person",
+  "info": {
+    "name": "Person",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "sigaa": {
+      "type": "string"
+    },
+    "lattes": {
+      "type": "string"
+    },
+    "pubmed": {
+      "type": "string"
+    },
+    "scholar": {
+      "type": "string"
+    },
+    "assignment": {
+      "type": "string"
+    },
+    "reduced_name": {
+      "type": "string"
+    },
+    "pcategory": {
+      "model": "pcategories"
+    },
+    "pcategories": {
+      "via": "people",
+      "collection": "pcategories"
+    }
+  }
+}

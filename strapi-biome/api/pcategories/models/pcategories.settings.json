@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pcategories",
+  "info": {
+    "name": "Pcategory",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "people": {
+      "collection": "person",
+      "via": "pcategories",
+      "dominant": true
+    }
+  }
+}
