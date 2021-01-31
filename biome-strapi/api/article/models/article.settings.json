@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "Articles",
+  "collectionName": "articles",
   "info": {
-    "name": "Article"
+    "name": "article"
   },
   "options": {
     "increments": true,
@@ -23,15 +23,14 @@
       "required": true
     },
     "date": {
-      "type": "datetime",
-      "required": true
+      "type": "datetime"
     },
     "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
         "images",
+        "files",
         "videos"
       ],
       "plugin": "upload",

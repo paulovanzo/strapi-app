@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "Person",
+  "collectionName": "people",
   "info": {
-    "name": "Person",
-    "description": ""
+    "name": "person"
   },
   "options": {
     "increments": true,
@@ -12,17 +11,18 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "email": {
       "type": "email"
     },
     "picture": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
@@ -46,12 +46,10 @@
     "reduced_name": {
       "type": "string"
     },
-    "pcategory": {
-      "model": "pcategories"
-    },
     "pcategories": {
       "via": "people",
-      "collection": "pcategories"
+      "collection": "pcategory",
+      "dominant": true
     }
   }
 }

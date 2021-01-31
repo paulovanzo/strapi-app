@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "Event",
+  "collectionName": "events",
   "info": {
-    "name": "Event",
-    "description": ""
+    "name": "event"
   },
   "options": {
     "increments": true,
@@ -17,7 +16,7 @@
     },
     "description": {
       "type": "string",
-      "required": false
+      "required": true
     },
     "place": {
       "type": "string",
@@ -35,8 +34,8 @@
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",

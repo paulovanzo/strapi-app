@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "pcategories",
   "info": {
-    "name": "Pcategory",
+    "name": "pcategory",
     "description": ""
   },
   "options": {
@@ -12,13 +12,11 @@
   },
   "attributes": {
     "name": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "people": {
       "collection": "person",
-      "via": "pcategories",
-      "dominant": true
+      "via": "pcategories"
     }
   }
 }
