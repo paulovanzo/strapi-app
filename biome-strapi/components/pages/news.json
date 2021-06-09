@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_news_landing",
+  "info": {
+    "name": "NewsLanding",
+    "icon": "envelope-open-text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "more_news": {
+      "type": "string"
+    },
+    "news": {
+      "type": "string"
+    },
+    "more_info": {
+      "type": "string"
+    }
+  }
+}

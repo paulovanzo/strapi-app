@@ -1,0 +1,29 @@
+{
+  "collectionName": "footer",
+  "info": {
+    "name": "Footer",
+    "icon": "arrow-alt-circle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "graduate": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.graduate"
+    },
+    "research": {
+      "type": "string"
+    },
+    "development": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.development"
+    },
+    "disclosure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.disclosure"
+    }
+  }
+}

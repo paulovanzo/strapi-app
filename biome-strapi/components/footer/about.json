@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_footer_abouts",
+  "info": {
+    "name": "about",
+    "icon": "broom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "people": {
+      "type": "string"
+    },
+    "history": {
+      "type": "string"
+    },
+    "technicalpartnership": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

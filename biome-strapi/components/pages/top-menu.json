@@ -1,0 +1,38 @@
+{
+  "collectionName": "topmenu",
+  "info": {
+    "name": "TopMenu",
+    "icon": "arrow-alt-circle-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "idea": {
+      "type": "string"
+    },
+    "about": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.about"
+    },
+    "development": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.development"
+    },
+    "courses": {
+      "type": "string"
+    },
+    "disclosure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.disclosure"
+    },
+    "graduate": {
+      "type": "string"
+    },
+    "research": {
+      "type": "string"
+    }
+  }
+}

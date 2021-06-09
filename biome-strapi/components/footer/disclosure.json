@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_footer_disclosures",
+  "info": {
+    "name": "disclosure",
+    "icon": "bullhorn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "news": {
+      "type": "string"
+    },
+    "events": {
+      "type": "string"
+    },
+    "PES": {
+      "type": "string"
+    },
+    "newsletter": {
+      "type": "string"
+    }
+  }
+}

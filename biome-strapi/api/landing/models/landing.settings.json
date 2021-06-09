@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing-page",
+  "info": {
+    "name": "Landing",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Languages": {
+      "type": "dynamiczone",
+      "components": [
+        "pages.footer",
+        "pages.top-menu",
+        "pages.news"
+      ]
+    }
+  }
+}
