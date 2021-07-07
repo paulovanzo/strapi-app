@@ -15,6 +15,9 @@
     },
     "title": {
       "type": "string"
+    },
+    "component": {
+      "type": "string"
     }
   }
 }

@@ -11,13 +11,25 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Languages": {
-      "type": "dynamiczone",
-      "components": [
-        "pages.footer",
-        "pages.top-menu",
-        "pages.news"
-      ]
+    "Menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.top-menu"
+    },
+    "Footer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.footer"
+    },
+    "News": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.news"
+    },
+    "Events": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.events"
     }
   }
 }

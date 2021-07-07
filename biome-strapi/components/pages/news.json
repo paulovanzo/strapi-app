@@ -1,7 +1,7 @@
 {
   "collectionName": "components_page_news_landing",
   "info": {
-    "name": "NewsLanding",
+    "name": "News",
     "icon": "envelope-open-text",
     "description": ""
   },
@@ -10,10 +10,13 @@
     "more_news": {
       "type": "string"
     },
-    "news": {
+    "title": {
       "type": "string"
     },
     "more_info": {
+      "type": "string"
+    },
+    "component": {
       "type": "string"
     }
   }

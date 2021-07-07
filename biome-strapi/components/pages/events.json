@@ -1,19 +1,18 @@
 {
-  "collectionName": "components_footer_graduates",
+  "collectionName": "components_pages_events",
   "info": {
-    "name": "graduate",
-    "icon": "graduation-cap",
-    "description": ""
+    "name": "Events",
+    "icon": "address-book"
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
     },
-    "master": {
+    "more_events": {
       "type": "string"
     },
-    "phd": {
+    "more_info": {
       "type": "string"
     },
     "component": {

@@ -21,6 +21,9 @@
     },
     "newsletter": {
       "type": "string"
+    },
+    "component": {
+      "type": "string"
     }
   }
 }

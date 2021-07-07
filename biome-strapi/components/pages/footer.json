@@ -24,6 +24,9 @@
       "type": "component",
       "repeatable": true,
       "component": "footer.disclosure"
+    },
+    "component": {
+      "type": "string"
     }
   }
 }
